@@ -27,7 +27,6 @@ for k in range(90):
             tur.lt(j**3)
             t.pencolor(*rgb)
             tur.circle(k**j)
-            j += 0.02
             t.fd(100)
             t.rt(90)
             t.fd(100)
@@ -35,13 +34,10 @@ for k in range(90):
             side3 = (100**2 + 100**2)**0.5
             tur.fd(side3)
             tur.circle(12**j)
-            j += 0.02
             t.circle(j**i)
             t.circle(k**3)
-            j += 0.02
             t.fd(50)
             t.rt(30)
             t.fd(50)
             t.rt(int(135 / 2))
-            j += 0.02
 
